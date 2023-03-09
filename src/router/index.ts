@@ -9,6 +9,6 @@ const router = Router();
  router.get("/fishes", controlles.fishes);
  //fim rotas menus
 //rotas pesquisas
- router.get("/scearch", scearch_controlles.scearchpages);
+ router.get("/search", scearch_controlles.search);
 
   export default router
